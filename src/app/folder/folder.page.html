@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <!-- <div class="bar"> -->
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button color="light"></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Tools</ion-title>
+  </ion-toolbar>
+<!-- </div> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header color="primary" collapse="condense">
+    <div class="bar">
+    <ion-toolbar color="primary">
+      <ion-title size="large">tool</ion-title>
+    </ion-toolbar>
+  </div>
+  </ion-header>
+  <router-outlet></router-outlet>
+  <div id="container">
+    
+    <!-- <strong class="capitalize">{{ folder }}</strong> -->
+    
+    <!-- <p>Explore 
+    <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">
+      UI Components
+    </a>
+  </p> -->
+  </div>
+</ion-content>
